@@ -6,10 +6,6 @@ for a dockerized application running on EKS with a Fargate profile.
 Ingress is based on https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html
 and https://medium.com/@marcincuber/amazon-eks-with-oidc-provider-iam-roles-for-kubernetes-services-accounts-59015d15cb0c.
 
-Due to the fact that EKS with Fargate profiles is not yet supported in all regions
-(https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) this template uses
-the `eu-west-1 (Ireland)`region.
-
 ## Prerequisites
 This template requires `aws-iam-authenticator` and `openssl` to be installed
 
