@@ -1,6 +1,6 @@
 # login screen
 
-# login button
+# login buttons
 provider "aws" {
   version = "~> 2.44"
   region  = var.region
